@@ -1,0 +1,36 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <title>Ecriptador</title>
+ </head>
+ <body>
+    <header>
+        <img src="Vector.svg" alt="Logo principal" class="logo">
+    </header>
+    <main>
+        <section>
+            <textarea id="textoDeEntrada"class="input" cols="40" rows="10" placeholder="Ingrese aquí el texto a encriptar" autofocus></textarea>
+            <div>
+                <button id="botonEncriptar" class="BtnEncriptar">Encriptar</button>
+                <button id="botonDesencriptar" >Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea readonly id="textoDeSalida" class="output" cols="40" rows="10" placeholder="Aquí aparecera su texto encriptado"></textarea>
+            <div>
+                <button id="botonCopiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+ </body>
+
+ <script src="script.js"></script>
+ </html>

@@ -1,0 +1,58 @@
+body{
+    background-color: #AAB2D5;;
+}
+
+.logo{
+    margin: 0px 0px 10px 0px;
+}
+
+section{
+    display: grid;
+}
+
+div{
+    height: 60px;
+}
+
+textarea{
+    font-family: 'Silkscreen', cursive;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+button{
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
+    transition: 500ms;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+button:active{
+    font-size: 21px;
+}
+
+.BtnEncriptar{
+    background-color: rgb(0, 153, 255);
+}
+
+.BtnEncriptar:hover{
+    background-color: aquamarine;
+}
+
+.input{
+    background: #AAB2D5;
+}
+
+
+.output{
+    margin-top: 10px;
+}
+
